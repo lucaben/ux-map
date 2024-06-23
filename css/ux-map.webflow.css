@@ -1,0 +1,1882 @@
+:root {
+  --dark-orange: #d65f0f;
+  --light-gray: #f2f2f2;
+  --header-blue: #333d3f;
+  --orange: #ff8c3f;
+  --dark-slate-gray: #333;
+  --dim-gray: #766666;
+}
+
+body {
+  color: #333;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  color: #f2f2f2;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: Signika, sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+h2 {
+  margin-top: -11px;
+  margin-bottom: 10px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  float: none;
+  clear: right;
+  color: #00e;
+  margin-top: 0;
+  padding-right: 10px;
+  display: inline;
+  position: static;
+  overflow: visible;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a.w--current {
+  padding-top: 20px;
+}
+
+.header {
+  background-color: #333d3f;
+  height: 73px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero-section {
+  background-color: #f7f2ec;
+  margin-top: -1px;
+  padding-top: 20px;
+  padding-bottom: 51px;
+}
+
+.download-section {
+  background-color: #f7f2ec;
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+
+.intro-section {
+  background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 79px;
+}
+
+.hero-heading {
+  color: #333;
+  margin-top: 19px;
+  margin-bottom: 31px;
+  font-family: Lato, sans-serif;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.hero-description {
+  color: #333;
+  margin-bottom: 19px;
+  padding-right: 25px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.navlink {
+  direction: ltr;
+  color: #fff;
+  text-transform: none;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+}
+
+.navlink:hover {
+  color: #a8a3a3;
+}
+
+.navlink:active {
+  color: #ff8c3f;
+}
+
+.navlink.w--current, .navlink.w--current:focus {
+  color: #fff;
+}
+
+.header-button {
+  float: none;
+  color: #fff;
+  background-color: #000;
+  border: 1px #999;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 1px;
+  margin-left: 20px;
+  padding: 11px 20px 12px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header-button.w--current {
+  padding-top: 11px;
+}
+
+.navmenu {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.logo-text {
+  float: left;
+  font-family: Signika, sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.logo-text.orange-logo-text {
+  color: #ff8c3f;
+  letter-spacing: .05em;
+  margin-right: 5px;
+  position: static;
+}
+
+.logo-text.white-logo-text {
+  color: #fff;
+  letter-spacing: .05em;
+}
+
+.hero-container {
+  padding-top: 21px;
+}
+
+.intro-header {
+  float: left;
+  color: #766666;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  margin-left: 42px;
+  margin-right: 42px;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  display: inline;
+  position: static;
+}
+
+.horizontal-line-intro {
+  float: left;
+  text-align: left;
+  margin-top: 7px;
+  display: inline;
+  position: static;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.intro-header-div {
+  float: none;
+  text-align: center;
+  margin: 20px auto 35px;
+  display: inline-block;
+  position: static;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.intro-block {
+  text-align: center;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.intro-sub-header {
+  color: #ff8c3f;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: Lato, sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 28px;
+}
+
+.intro-paragraph {
+  color: #333;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.standard-header {
+  margin-top: 5px;
+  margin-bottom: 41px;
+  font-family: Lato, sans-serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.standard-header.strikethrough {
+  text-decoration: line-through;
+}
+
+.download-license-name {
+  text-align: center;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  margin-top: 14px;
+  margin-bottom: 11px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.download-license-description {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+}
+
+.download-license-price {
+  text-align: center;
+  margin-bottom: 13px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.download-block {
+  text-align: center;
+}
+
+.product-section {
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+.ninja-section {
+  background-color: #766666;
+  padding-top: 43px;
+  padding-bottom: 40px;
+}
+
+.ninja-bodytext {
+  color: #f2f2f2;
+  margin-bottom: 29px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.ninja-container {
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.faq-section {
+  text-align: left;
+  background-color: #fff;
+  margin-bottom: 38px;
+  padding-top: 51px;
+  padding-bottom: 0;
+}
+
+.product-headline {
+  margin-bottom: 2px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.product-paragraph {
+  margin-bottom: 33px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.product-block {
+  text-align: right;
+  margin: 52px auto;
+  display: block;
+}
+
+.product-right-column {
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.container-download {
+  text-align: center;
+}
+
+.faq-question {
+  color: #333;
+  margin-bottom: 1px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.faq-answer {
+  text-indent: 0;
+  margin-top: 0;
+  margin-bottom: 33px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.ninja-bottom-text {
+  float: none;
+  color: #fff;
+  margin-top: 30px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  display: inline;
+}
+
+.inline-link {
+  color: #ff8c3f;
+  padding-right: 0;
+  text-decoration: none;
+  display: inline;
+}
+
+.inline-link:hover {
+  color: #d65f0f;
+}
+
+.button-bottom {
+  clear: none;
+  color: #fff;
+  text-align: left;
+  background-color: #000;
+  border-radius: 9px;
+  margin-top: 48px;
+  margin-bottom: 89px;
+  padding: 36px 69px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-section {
+  background-color: #333d3f;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  position: static;
+}
+
+.footer-text {
+  float: none;
+  color: #fff;
+  margin-bottom: 29px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+}
+
+.footer-text.personal-description {
+  font-size: 16px;
+  display: inline-block;
+}
+
+.footer-link {
+  z-index: 0;
+  float: left;
+  color: #fff;
+  margin-top: 0;
+  padding-top: 0;
+  padding-right: 0;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.footer-link:hover {
+  color: #ff8c3f;
+}
+
+.footer-link.w--current {
+  margin-top: auto;
+  padding-top: 0;
+  display: block;
+}
+
+.download-details {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 4px;
+}
+
+.download-payment-info {
+  color: #766666;
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 31px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.payments-details-text {
+  margin-top: 38px;
+  margin-left: 73px;
+  margin-right: 73px;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 23px;
+}
+
+.hero-left-column {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 26px;
+  position: static;
+}
+
+.block-faq {
+  float: none;
+  text-align: left;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: static;
+  left: 0;
+}
+
+.image-separator {
+  float: left;
+  margin-left: 11px;
+  margin-right: 11px;
+  padding-top: 6px;
+}
+
+.legal-block {
+  margin-top: -7px;
+  margin-bottom: 19px;
+}
+
+.payment-info-bold {
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.div1200 {
+  text-align: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+}
+
+.product-left-column {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.product-right-column {
+  float: right;
+  clear: none;
+  text-align: left;
+  padding-left: 20px;
+  display: inline-block;
+  position: relative;
+  top: 8px;
+  bottom: 0;
+  right: 15px;
+}
+
+.product-image {
+  border: 1px #000;
+  margin-right: 35px;
+  padding-right: 20px;
+}
+
+.product-image.top-image {
+  margin-top: -8px;
+  margin-bottom: 0;
+}
+
+.header-spacer {
+  height: 73px;
+}
+
+.download-payment-image {
+  margin-top: -32px;
+}
+
+.footer-social-icons {
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.logo-icon {
+  float: left;
+  margin-top: -10px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.tutorials-section {
+  color: #000;
+  background-color: #f7f2ec;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.block-tutorials {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+}
+
+.video-tutorial {
+  margin-bottom: 59px;
+}
+
+.link-footer {
+  z-index: 1;
+  max-width: 42px;
+  margin-bottom: -19px;
+  margin-left: -9px;
+  margin-right: 6px;
+  padding: 28px 3px 2px 10px;
+  display: inline;
+  position: relative;
+}
+
+.link-footer:hover {
+  opacity: .75;
+}
+
+.footer-icons {
+  margin-top: 28px;
+  position: relative;
+}
+
+.share {
+  z-index: 1;
+  float: none;
+  margin-left: -8px;
+  padding: 10px 8px;
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  left: 0;
+}
+
+.share-overlay {
+  z-index: 9;
+  text-align: center;
+  background-color: #333;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  width: 100px;
+  height: 136px;
+  padding-top: 6px;
+  padding-bottom: 17px;
+  display: block;
+  position: relative;
+  bottom: 138px;
+  left: -23px;
+  right: 284px;
+}
+
+.facebook-share-button {
+  padding-top: 2px;
+  padding-bottom: 7px;
+}
+
+.twitter-tweat-button {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 2px;
+  right: 2px;
+}
+
+.google-share-button {
+  padding-top: 2px;
+  padding-bottom: 7px;
+}
+
+.share-active-area {
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  display: none;
+  position: absolute;
+  top: -9px;
+  bottom: -32px;
+  left: 140px;
+}
+
+.div-legal-1200 {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.header-legal {
+  color: #333;
+  margin-bottom: 31px;
+}
+
+.terms-section {
+  margin-top: 34px;
+  margin-bottom: 12px;
+}
+
+.body-legal {
+  color: #333;
+  text-align: left;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.body-legal.letter-legal {
+  color: #7d7d7d;
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 57px;
+  padding-left: 57px;
+  padding-right: 57px;
+  font-style: italic;
+}
+
+.title-legal {
+  color: #333;
+  margin-top: 49px;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.space {
+  height: 100px;
+}
+
+.div-1200-legal {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.features-icon {
+  width: 36px;
+}
+
+.hover-image {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: static;
+}
+
+.lightbox-interaction {
+  clear: none;
+  padding-top: 0;
+  padding-right: 0;
+  display: block;
+  position: relative;
+}
+
+.overlay {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer-for-anchor {
+  height: 0;
+}
+
+.hero-link {
+  color: #ff8c3f;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.tutorials-intro {
+  margin-bottom: 34px;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.footer-image {
+  align-self: flex-start;
+  margin-top: 4px;
+  margin-right: 24px;
+  display: inline-block;
+}
+
+.author {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.author-block {
+  flex-direction: row;
+  flex: 1;
+  align-self: stretch;
+  display: flex;
+}
+
+.price-row {
+  margin-left: 267px;
+  margin-right: 267px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.brand {
+  direction: ltr;
+  padding-top: 20px;
+  display: inline;
+}
+
+.brand.w--current {
+  position: static;
+  overflow: visible;
+}
+
+.image {
+  margin-left: -31px;
+  padding-left: 0;
+}
+
+.paragraph-standard {
+  text-align: left;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.div-1200-subpage {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.brand-2 {
+  padding-top: 22px;
+}
+
+.image-reference {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.reference-images-wrapper {
+  flex-flow: wrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: stretch;
+  display: flex;
+}
+
+.image-block {
+  flex: none;
+  margin-left: 19px;
+  margin-right: 19px;
+  padding-bottom: 33px;
+  display: block;
+}
+
+.image-block-counter {
+  padding-left: 10px;
+}
+
+.image-2 {
+  width: 100%;
+}
+
+.offset-image {
+  padding-left: 14px;
+}
+
+.banner {
+  background-color: var(--dark-orange);
+  margin-top: 73px;
+}
+
+.banner-text {
+  color: var(--light-gray);
+  padding: 21px 19px;
+  font-size: 22px;
+}
+
+html.w-mod-js [data-ix="fade-down-2"] {
+  opacity: 0;
+  transform: translate(0, -25px);
+}
+
+html.w-mod-js [data-ix="overlay-on-pageload"] {
+  opacity: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .header {
+    position: relative;
+  }
+
+  .hero-section {
+    margin-top: 0;
+  }
+
+  .intro-section {
+    padding-top: 41px;
+    padding-bottom: 52px;
+  }
+
+  .hero-heading {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .hero-description {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .navlink {
+    background-color: #766666;
+  }
+
+  .header-button {
+    float: left;
+    border-style: none;
+    margin-bottom: 22px;
+  }
+
+  .navmenu {
+    z-index: 1001;
+    float: right;
+    background-color: #766666;
+    position: relative;
+    top: -7px;
+    left: 0;
+  }
+
+  .intro-header {
+    font-size: 15px;
+  }
+
+  .intro-block {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .intro-sub-header {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .intro-paragraph {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .standard-header {
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .download-license-name {
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .download-license-description {
+    font-size: 16px;
+  }
+
+  .download-license-price {
+    margin-bottom: 18px;
+    font-size: 26px;
+  }
+
+  .product-section {
+    margin-bottom: 2px;
+    padding-top: 22px;
+    padding-bottom: 17px;
+  }
+
+  .ninja-bodytext {
+    max-height: 142px;
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .product-headline {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .product-paragraph {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .product-block {
+    text-align: center;
+    max-width: 700px;
+  }
+
+  .product-right-column {
+    margin-bottom: -39px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .faq-question {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .faq-answer {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .ninja-bottom-text {
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .button-bottom {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    font-size: 28px;
+  }
+
+  .footer-text.personal-description {
+    float: right;
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .payments-details-text {
+    margin-left: 147px;
+    margin-right: 147px;
+    line-height: 23px;
+  }
+
+  .block-faq {
+    text-align: left;
+    max-width: 800px;
+    padding-left: 49px;
+    padding-right: 49px;
+  }
+
+  .div1200 {
+    max-width: 928px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .product-right-column {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    position: static;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+  }
+
+  .product-image {
+    margin-bottom: 21px;
+    padding-right: 0;
+  }
+
+  .product-image.top-image {
+    margin-bottom: 21px;
+  }
+
+  .menu-icon {
+    color: #fff;
+    font-size: 36px;
+  }
+
+  .menu-button-wrapper {
+    margin-top: -7px;
+    margin-right: -20px;
+    top: 0;
+  }
+
+  .menu-button-wrapper.w--open {
+    background-color: #766666;
+    padding-bottom: 20px;
+    top: 0;
+    bottom: 0;
+  }
+
+  .header-spacer {
+    height: 0;
+  }
+
+  .tutorials-section {
+    padding-left: 49px;
+    padding-right: 49px;
+  }
+
+  .block-tutorials {
+    max-width: 800px;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .share-overlay {
+    display: block;
+    position: relative;
+    top: -137px;
+    left: -22px;
+    right: 307px;
+  }
+
+  .share-active-area {
+    width: 50px;
+    height: 50px;
+    display: none;
+    top: -10px;
+    left: 141px;
+    right: 1px;
+  }
+
+  .div-legal-1200 {
+    margin-left: 39px;
+    margin-right: 39px;
+  }
+
+  .header-legal {
+    font-size: 36px;
+  }
+
+  .body-legal {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .body-legal.letter-legal {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .title-legal {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .div-1200-legal {
+    margin-left: 28px;
+    margin-right: 28px;
+  }
+
+  .features-icon {
+    width: 32px;
+  }
+
+  .hero-link {
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 19px;
+    display: inline-block;
+  }
+
+  .footer-image {
+    flex: 0 auto;
+    width: 180px;
+  }
+
+  .price-row {
+    margin-left: 63px;
+    margin-right: 63px;
+  }
+
+  .paragraph-standard {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .div-1200-subpage {
+    margin-left: 39px;
+    margin-right: 39px;
+  }
+
+  .banner {
+    margin-top: -1px;
+  }
+
+  .banner-text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: block;
+  }
+
+  .hero-section {
+    padding-top: 0;
+    padding-bottom: 24px;
+  }
+
+  .hero-description {
+    margin-bottom: -3px;
+    padding-right: 0;
+    line-height: 20px;
+  }
+
+  .navlink {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .header-button {
+    margin-top: 12px;
+    padding-top: 13px;
+  }
+
+  .logo-text.orange-logo-text, .logo-text.white-logo-text {
+    font-size: 38px;
+  }
+
+  .intro-header {
+    margin-left: 13px;
+    margin-right: 21px;
+    font-size: 14px;
+    display: block;
+  }
+
+  .horizontal-line-intro {
+    width: 30px;
+    height: 1px;
+    display: inline;
+  }
+
+  .intro-header-div {
+    margin-bottom: 10px;
+  }
+
+  .intro-sub-header {
+    margin-top: 3px;
+    margin-bottom: 4px;
+  }
+
+  .intro-paragraph {
+    margin-bottom: 13px;
+  }
+
+  .standard-header {
+    margin-top: 0;
+    margin-bottom: 12px;
+    padding-bottom: 0;
+  }
+
+  .download-license-name {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .download-license-description {
+    margin-bottom: 9px;
+  }
+
+  .download-license-price {
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  .download-block {
+    margin-bottom: 42px;
+  }
+
+  .ninja-section {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .ninja-bodytext {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .product-paragraph {
+    margin-top: 0;
+    margin-bottom: 19px;
+    padding-top: 0;
+    line-height: 21px;
+  }
+
+  .product-block {
+    margin-top: 33px;
+    margin-bottom: 17px;
+  }
+
+  .faq-question {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .faq-answer {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .ninja-bottom-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .button-bottom {
+    margin-top: 6px;
+    margin-bottom: 12px;
+  }
+
+  .payments-details-text {
+    margin: -31px 71px 18px;
+    font-size: 16px;
+  }
+
+  .block-faq {
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+
+  .payment-info-bold {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .div1200 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .product-right-column {
+    line-height: 20px;
+  }
+
+  .product-image {
+    margin-top: 13px;
+    margin-bottom: 21px;
+  }
+
+  .product-image.top-image {
+    margin-top: -3px;
+  }
+
+  .menu-button-wrapper {
+    margin-top: -5px;
+    padding-bottom: 15px;
+  }
+
+  .menu-button-wrapper.w--open {
+    padding-bottom: 15px;
+  }
+
+  .download-payment-image {
+    max-width: 365px;
+  }
+
+  .footer-social-icons {
+    margin-left: -12px;
+    padding: 11px;
+  }
+
+  .logo-icon {
+    width: 24px;
+    margin-top: -8px;
+  }
+
+  .share-active-area {
+    display: none;
+    top: 3px;
+    left: 171px;
+  }
+
+  .header-legal {
+    font-size: 28px;
+  }
+
+  .body-legal {
+    margin-top: 13px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .title-legal {
+    margin-top: 42px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .features-icon {
+    width: 28px;
+  }
+
+  .lightbox-interaction {
+    max-width: 95%;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .hero-link {
+    margin-top: 14px;
+    display: inline-block;
+  }
+
+  .tutorials-intro {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer-image {
+    width: 220px;
+    margin-bottom: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .author {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 9px;
+  }
+
+  .author-block {
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+  }
+
+  .paragraph-standard {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .brand-2 {
+    padding-top: 18px;
+  }
+
+  .reference-images-wrapper {
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+
+  .image-block {
+    flex: 0 auto;
+    width: 100%;
+    margin-bottom: 13px;
+    padding-bottom: 0;
+    display: block;
+  }
+
+  .image-block-counter {
+    padding-left: 0;
+  }
+
+  .image-2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .shrinkable-image {
+    width: 90%;
+  }
+
+  .banner-text {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  a {
+    padding-top: 20px;
+  }
+
+  a.w--current {
+    padding-right: 0;
+  }
+
+  .header {
+    height: 58px;
+  }
+
+  .download-section {
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .intro-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .hero-heading {
+    letter-spacing: 0;
+    margin-top: 0;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .hero-description {
+    padding-right: 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .navlink {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+  }
+
+  .logo-text.orange-logo-text {
+    letter-spacing: .05em;
+    font-size: 30px;
+    line-height: 20px;
+  }
+
+  .logo-text.white-logo-text {
+    font-size: 30px;
+    line-height: 20px;
+  }
+
+  .intro-header {
+    float: none;
+    margin-top: -7px;
+    margin-bottom: 13px;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+  }
+
+  .horizontal-line-intro {
+    float: none;
+    clear: none;
+    text-align: center;
+    width: 100px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 27px;
+    display: block;
+  }
+
+  .intro-header-div {
+    text-align: center;
+    display: block;
+  }
+
+  .intro-block {
+    margin-top: -26px;
+    margin-bottom: 48px;
+  }
+
+  .intro-sub-header {
+    line-height: 23px;
+  }
+
+  .intro-paragraph {
+    line-height: 20px;
+  }
+
+  .standard-header {
+    letter-spacing: 0;
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .download-license-name {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .download-license-description {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .download-license-price {
+    margin-top: -6px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .download-block {
+    text-align: center;
+  }
+
+  .product-section {
+    margin-bottom: -6px;
+  }
+
+  .ninja-section {
+    padding: 8px 19px;
+  }
+
+  .ninja-bodytext {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .faq-section {
+    padding-top: 41px;
+  }
+
+  .product-headline {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .product-paragraph {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .faq-question {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .faq-answer {
+    margin-bottom: 7px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .ninja-bottom-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .button-bottom {
+    margin-top: 30px;
+    margin-bottom: -2px;
+    padding: 17px 32px;
+    font-size: 24px;
+    line-height: 22px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .footer-text.personal-description {
+    text-align: left;
+  }
+
+  .footer-link {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .download-payment-info {
+    margin-top: 14px;
+    margin-bottom: 22px;
+    padding-left: 23px;
+    padding-right: 23px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .payments-details-text {
+    margin-bottom: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .block-faq {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .image-separator {
+    padding-top: 4px;
+  }
+
+  .payment-info-bold {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .div1200 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .product-right-column {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .menu-button-wrapper {
+    margin-top: -6px;
+    margin-right: -13px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+  }
+
+  .menu-button-wrapper.w--open {
+    padding-bottom: 17px;
+  }
+
+  .download-payment-image {
+    width: 200px;
+    max-width: 220px;
+    max-height: 29px;
+  }
+
+  .footer-social-icons {
+    margin-right: -1px;
+  }
+
+  .logo-icon {
+    width: 21px;
+    margin-top: -5px;
+    padding-top: 0;
+  }
+
+  .tutorials-section {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
+  .share-active-area {
+    top: 3px;
+  }
+
+  .div-legal-1200 {
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+
+  .body-legal {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .body-legal.letter-legal {
+    text-align: left;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .buy-now-button-mobile {
+    float: none;
+    text-align: center;
+    max-width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: static;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .div-1200-legal {
+    margin-left: 13px;
+    margin-right: 13px;
+  }
+
+  .hero-link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .tutorials-intro {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .footer-image {
+    flex: 0 auto;
+    max-width: 100%;
+    margin-bottom: 23px;
+  }
+
+  .author {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .price-row {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .paragraph-standard {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .div-1200-subpage {
+    margin-left: 27px;
+    margin-right: 27px;
+  }
+
+  .brand-2 {
+    padding-top: 18px;
+  }
+
+  .reference-images-wrapper {
+    justify-content: center;
+  }
+
+  .image-block {
+    text-align: center;
+    flex: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .banner-text {
+    font-size: 14px;
+  }
+}
+
+
